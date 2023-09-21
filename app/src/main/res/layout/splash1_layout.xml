@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CAD6F2"
+    android:background="#6460EA"
     android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".Splash1Activity">
@@ -15,16 +15,18 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="20sp"
-        android:textSize="30dp"
-        android:text="Welcome Back" />
+        android:text="Welcome Back"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
 
     <TextView
         android:id="@+id/txtLorem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
         android:textAlignment="center"
-        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. " />
+        android:textColor="@color/white" />
 
     <ImageView
         android:id="@+id/imgLogin"
@@ -40,20 +42,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="15sp"
-        android:textSize="25dp"
+        android:layout_marginTop="15sp"
         android:text="Company Name"
-        android:textAllCaps="true"/>
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
 
     <TextView
         android:id="@+id/txtSlogan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="15sp"
-        android:textSize="25dp"
-        android:text="Company Name"
-        android:textAllCaps="true"/>
+        android:text="Slogan here"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
 
     <EditText
         android:id="@+id/edtEmail"
@@ -112,5 +114,4 @@
             android:textAllCaps="true" />
 
 
-
-</LinearLayout>
+    </LinearLayout>
