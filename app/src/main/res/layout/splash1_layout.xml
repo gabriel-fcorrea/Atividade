@@ -16,6 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="20sp"
         android:text="Welcome Back"
+        android:textStyle="bold"
         android:textColor="@color/white"
         android:textSize="30dp" />
 
@@ -23,8 +24,9 @@
         android:id="@+id/txtLorem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
         android:layout_gravity="center_horizontal"
-        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
         android:textAlignment="center"
         android:textColor="@color/white" />
 
@@ -44,6 +46,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15sp"
         android:text="Company Name"
+        android:textStyle="bold"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="25dp" />
@@ -57,47 +60,18 @@
         android:textAllCaps="true"
         android:textColor="@color/white" />
 
-    <EditText
-        android:id="@+id/edtEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20sp"
-        android:drawableEnd="@drawable/baseline_person"
-        android:hint="Insira seu e-mail"
-        android:inputType="textEmailAddress"
-        android:maxLength="80"
-        android:padding="20sp" />
-
-    <EditText
-        android:id="@+id/edtSenha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20sp"
-        android:drawableEnd="@drawable/baseline_lock"
-        android:hint="Insira sua senha"
-        android:inputType="textPassword"
-        android:maxLength="80"
-        android:padding="20sp" />
-
-    <TextView
-        android:id="@+id/txtEsqSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="20sp"
-        android:text="Esqueceu a sua senha?" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
 
         <Button
             android:id="@+id/btnEntrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:padding="15dp"
             android:text="Entrar"
@@ -107,7 +81,6 @@
             android:id="@+id/btnSair"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:padding="15dp"
             android:text="Sair"
