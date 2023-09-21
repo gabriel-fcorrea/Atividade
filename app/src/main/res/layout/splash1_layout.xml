@@ -75,7 +75,7 @@
             android:layout_weight="1"
             android:backgroundTint="#FF9800"
             android:padding="1dp"
-            android:text="Entrar"
+            android:text="Sign In"
             android:textAllCaps="true"
             android:textStyle="bold" />
 
@@ -87,7 +87,7 @@
             android:layout_weight="1"
             android:backgroundTint="#FF9800"
             android:padding="1dp"
-            android:text="Sair"
+            android:text="Sign Up"
             android:textAllCaps="true"
             android:textStyle="bold" />
 
