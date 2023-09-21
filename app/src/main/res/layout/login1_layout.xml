@@ -26,17 +26,25 @@
         android:orientation="vertical">
 
 
-        <Button
-            android:id="@+id/btnSair"
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:backgroundTint="#FF9800"
-            android:padding="1dp"
-            android:text="Sair"
-            android:textAllCaps="true"
-            android:textStyle="bold" />
+            android:layout_margin="20dp"
+            android:hint="User Name"
+            />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="left"
+                android:text="Remember Password"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+
 
     </LinearLayout>
 
@@ -78,7 +86,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
-
 
 
     </LinearLayout>
