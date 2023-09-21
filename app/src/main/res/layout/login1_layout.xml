@@ -30,20 +30,28 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="20dp"
+            android:drawableEnd="@drawable/person"
             android:hint="User Name"
-            />
+            android:textColorHint="@color/white" />
 
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleX="0.8"
-                android:scaleY="0.8"
-                android:layout_marginLeft="5dp"
-                android:layout_gravity="left"
-                android:text="Remember Password"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:drawableEnd="@drawable/key"
+            android:hint="Password"
+            android:textColorHint="@color/white" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="Remember Password"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
