@@ -46,16 +46,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="20dp"
-            android:drawableEnd="@drawable/person"
-            android:hint="User Name"
+            android:drawableEnd="@drawable/email"
+            android:hint="E-mail"
             android:textColorHint="@color/white" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="20dp"
-            android:drawableEnd="@drawable/person"
-            android:hint="User Name"
+            android:drawableEnd="@drawable/phone"
+            android:hint="Phone"
             android:textColorHint="@color/white" />
 
         <CheckBox
