@@ -77,11 +77,13 @@
     <Button
         android:layout_marginTop="80dp"
         android:id="@+id/btnEntrar"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="15dp"
-        android:backgroundTint="#F94C84"
-        android:text="Sign In"
+        android:layout_gravity="center"
+        android:backgroundTint="#9E0B0B"
+        android:drawableLeft="@drawable/exit"
+        android:text="Exit"
         android:textAllCaps="true"
         android:textStyle="bold" />
 
