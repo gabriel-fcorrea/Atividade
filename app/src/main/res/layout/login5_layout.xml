@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D46E65"
+
+    android:orientation="vertical"
+    tools:context=".Splash1Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="25sp"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name/ e mail addres"
+        android:textColor="@color/white"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="25sp"
+        android:textSize="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="25sp"
+        android:textSize="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="30sp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:background="#D46E65"
+        android:layout_marginTop="20sp"
+        tools:context=".Splash1Activity">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create a New Account"
+            android:layout_marginRight="20sp"
+            android:backgroundTintMode="src_over"
+            android:layout_marginLeft="25sp"
+            android:backgroundTint="@color/rose"
+
+
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:backgroundTint="@color/rose"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
