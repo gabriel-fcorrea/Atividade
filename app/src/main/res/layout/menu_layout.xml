@@ -11,17 +11,34 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="App Name"
-            android:textSize="15dp"/>
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="250dp"
+            android:src="@drawable/edit" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/more" />
+
 
     </LinearLayout>
 
@@ -37,25 +54,51 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="20dp"
-            android:drawableEnd="@drawable/person"
-            android:hint="User Name"
-            android:textColorHint="@color/white" />
+            android:drawableEnd="@drawable/search"
+            android:hint="Textfield"
+            android:textColorHint="#D36E65" />
 
-        <EditText
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="20dp"
-            android:drawableEnd="@drawable/key"
-            android:hint="Password"
-            android:textColorHint="@color/white" />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="20dp"
-            android:drawableEnd="@drawable/email"
-            android:hint="E-mail"
-            android:textColorHint="@color/white" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:drawableEnd="@drawable/key"
+                    android:hint="Password"
+                    android:textColorHint="@color/rose" />
+
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:drawableEnd="@drawable/email"
+                    android:hint="E-mail"
+                    android:textColorHint="@color/rose" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/rose"
+                    android:text="DOWNLOAD"
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <EditText
             android:layout_width="match_parent"
