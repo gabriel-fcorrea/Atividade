@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D46E65"
-
     android:orientation="vertical"
     tools:context=".Splash1Activity">
 
@@ -23,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="25sp"
         android:layout_marginTop="55dp"
-        android:text="User Name/ e mail addres"
+        android:text="User Name/ e mail address"
         android:textColor="@color/white"
         android:textSize="16dp" />
 
