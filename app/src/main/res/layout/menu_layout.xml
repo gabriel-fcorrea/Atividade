@@ -62,15 +62,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
             android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#D36E65" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:background="@color/white"
                 android:orientation="vertical">
 
                 <EditText
@@ -78,7 +85,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
                     android:drawableEnd="@drawable/key"
-                    android:hint="Password"
+                    android:hint="Price:"
                     android:textColorHint="@color/rose" />
 
                 <EditText
@@ -86,7 +93,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
                     android:drawableEnd="@drawable/email"
-                    android:hint="E-mail"
+                    android:hint="Image ID:"
                     android:textColorHint="@color/rose" />
 
                 <Button
@@ -94,41 +101,100 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:backgroundTint="@color/rose"
-                    android:text="DOWNLOAD"
+                    android:text="download"
+                    android:textAllCaps="true" />
+
 
             </LinearLayout>
 
         </LinearLayout>
 
-        <EditText
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="20dp"
-            android:drawableEnd="@drawable/phone"
-            android:hint="Phone"
-            android:textColorHint="@color/white" />
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:text="Remember Password"
-            android:textColor="@color/white"
-            android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btnEntrar"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:text="Owner:"
+                android:textColor="@color/rose"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Description:"
+                android:textColor="@color/rose"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="20dp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it "
+                android:textColor="@color/rose"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginHorizontal="50dp"
-            android:layout_weight="1"
-            android:backgroundTint="#FF9800"
-            android:text="Sign In"
-            android:textAllCaps="true"
-            android:textStyle="bold" />
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D36E65" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D36E65" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D36E65" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D36E65" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D36E65" />
+
+        </LinearLayout>
 
     </LinearLayout>
-
-</LinearLayout>
